@@ -1,0 +1,33 @@
+ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(img/menu.png)left bottom;
+}
+
+
+a:hover {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #FFF;
+}
+
+#home #navLateral .home a,
+#sobre #navLateral .sobre a,
+#serv #navLateral .serv a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #FFF;
+}
+
